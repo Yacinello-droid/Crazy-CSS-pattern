@@ -39,7 +39,7 @@ To open project you can just open it from file explorer or through your browser 
 graph LR
 A(Ways) --> B(Releases)
 A --> C(git)
-C --> G(git clone https://github.com/yacinello-droid/Crazy-CSS-Pattern)
+C --> G(git clone (repository link))
 ```
 
 # Opening guide graph

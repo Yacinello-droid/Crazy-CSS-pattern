@@ -33,6 +33,24 @@ Example: `<link rel="stylesheet" ref="C:/Users/elowyn/Documents/Styles/NewStyle.
 
 To open project you can just open it from file explorer or through your browser search bar
 
+# Installation guide graph
+
+```mermaid
+graph LR
+A(Ways) --> B(Releases)
+A --> C(git)
+C --> G(git clone https://github.com/yacinello-droid/Crazy-CSS-Pattern)
+```
+
+# Opening guide graph
+
+```mermaid
+graph LR
+A([Ways]) --> B([Search bar]) --> 1([file://C:/path/to/index.html]) --> E([Examples]) --> EE([file://C:/Users/elowyn/Documents/websites/index.html])
+A --> F([File Explorer]) --> E
+A --> C([Command line]) --> 3([browser_name path/to/index.html]) --> E --> 33([firefox index.html])
+```
+
 Example: `file://path/to/project/index.html` This should work in Firefox and Google  Chrome
 ## Screenshots
 

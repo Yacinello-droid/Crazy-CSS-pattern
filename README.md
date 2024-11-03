@@ -39,7 +39,7 @@ To open project you can just open it from file explorer or through your browser 
 graph LR
 A(Ways) --> B(Releases)
 A --> C(git)
-C --> G(git clone "link to repository")
+C --> G(git clone 'link to repository')
 ```
 
 # Opening guide graph
@@ -49,6 +49,39 @@ graph LR
 A([Ways]) --> B([Search bar]) --> 1([file://C:/path/to/index.html]) --> E([Examples]) --> EE([file://C:/Users/elowyn/Documents/websites/index.html])
 A --> F([File Explorer]) --> E
 A --> C([Command line]) --> 3([browser_name path/to/index.html]) --> E --> 33([firefox index.html])
+```
+
+```stl
+solid cube_corner
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 1.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+      vertex 0.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.577 0.577 0.577
+    outer loop
+      vertex 1.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+endsolid
 ```
 
 Example: `file://path/to/project/index.html` This should work in Firefox and Google  Chrome
